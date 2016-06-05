@@ -1,0 +1,11 @@
+<% @schools.each do |school| %>
+  <hr>
+  <div class=""> 
+    <p> id:  <%= school.id %></p>
+    <p> uid: <%= school.uid %></p>
+    <p> overweight %: <%= school.overweight_percentage %></p>
+    <p> obese % <%= school.obese_percentage %></p>
+    <p> county id:  <%= school.county_id %></p>
+</div>
+<% end %>
+<br>
